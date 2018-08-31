@@ -1,0 +1,11 @@
+{
+  "name": "mandracchia_strap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Serrowxd/mandracchia_strap.git",
+  "author": "Kevin Jolley <serrowpls@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
