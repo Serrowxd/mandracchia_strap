@@ -3,4 +3,91 @@ body,
 div {
   color: white;
   background-color: #212121;
+  font-family: Segoe UI Light !important;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 1920px;
+  min-width: 600px;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.transparent {
+  background: transparent;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  align-self: center;
+  position: absolute;
+  background: transparent !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.nav img {
+  height: 8rem;
+  width: auto;
+  align-self: center;
+}
+.nav h2 {
+  font-size: 1.3rem;
+}
+.navitems {
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+.jumbo {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+}
+.landing {
+  background-image: url(../../assets/unnamed30opacnorm.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.cta {
+  height: 100%;
+  width: 40%;
+  justify-content: center;
+  background: transparent;
+  padding-left: 2rem;
+}
+.cta h1 {
+  margin: 0;
+}
+.cta img {
+  width: 46rem;
+  height: auto;
+  align-self: flex-end;
+}
+.cta p {
+  font-size: 1.5rem;
+}
+.ctatext {
+  padding-top: 2rem;
+}
+.ctatext .cta-1 {
+  font-size: 7rem;
+}
+.ctatext .cta-2 {
+  font-size: 5rem;
 }

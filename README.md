@@ -1,2 +1,3 @@
 # mandracchia_strap
-Bootstrap HTML version of the Mandracchia Page.
+
+HTML/LESS Page for Mandracchia Law

@@ -3,7 +3,119 @@ body,
 div {
   color: white;
   background-color: rgb(33, 33, 33);
+  font-family: Segoe UI Light !important;
+  margin: 0;
+  padding: 0;
 }
 
 // #212121 - Background
 // #303030 - Foreground
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 1920px;
+  min-width: 600px;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.transparent {
+  background: transparent;
+}
+
+// ****
+// Nav
+// ****
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  align-self: center;
+  position: absolute;
+  background: transparent !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  img {
+    height: 8rem;
+    width: auto;
+    align-self: center;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+.navitems {
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+// ****
+// Jumbo
+// ****
+
+.jumbo {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.landing {
+  background-image: url(../../assets/unnamed30opacnorm.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.cta {
+  height: 100%;
+  width: 40%;
+  justify-content: center;
+  background: transparent;
+  padding-left: 2rem;
+
+  h1 {
+    margin: 0;
+  }
+
+  img {
+    width: 46rem;
+    height: auto;
+    align-self: flex-end;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.ctatext {
+  padding-top: 2rem;
+
+  .cta-1 {
+    font-size: 7rem;
+  }
+
+  .cta-2 {
+    font-size: 5rem;
+  }
+}

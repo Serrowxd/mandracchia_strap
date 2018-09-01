@@ -6,6 +6,6 @@
   "author": "Kevin Jolley <serrowpls@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "jquery": "^3.3.1"
   }
 }
