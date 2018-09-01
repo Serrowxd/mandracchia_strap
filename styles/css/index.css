@@ -126,11 +126,41 @@ button {
 .ctatext .cta-2 {
   font-size: 5rem;
 }
-.sec-1 {
-  justify-content: space-evenly;
+.section {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
+.sec-1 {
+  justify-content: space-between;
+  width: 100%;
+  padding: 3rem;
+}
 .sec-1 img {
-  width: 60rem;
+  width: 50rem;
   height: auto;
+}
+.sec-1-text {
+  justify-content: center;
+  width: 50%;
+}
+.sec-1-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.sec-1-text p {
+  font-size: 1.2rem;
+}
+.light {
+  background-color: white;
+}
+.sec-2-text {
+  color: black;
+}
+.sec-2-text h1 {
+  text-align: center;
+}
+.sec-2-text span {
+  color: #daa520;
+  font-size: 3rem;
 }
